@@ -1,5 +1,9 @@
 import streamlit as st
 from openai import OpenAI
+from langchain_openai import ChatOpenAI
+
+bot = ChatOpenAI()
+
 
 # Show title and description.
 st.title("💬 Chatbot")
